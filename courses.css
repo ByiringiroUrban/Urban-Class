@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #28a745;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img{
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #218838;
+  border-radius: 5px;
+}
+
+/* Course Overview Section */
+#course-overview {
+  background-color: #e0f7ea;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#course-overview h1 {
+  font-size: 3em;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+#course-overview p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+#enroll-btn {
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#enroll-btn:hover {
+  background-color: #218838;
+}
+
+/* Course Syllabus Section */
+#syllabus {
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#syllabus h2 {
+  font-size: 2.5em;
+  color: #28a745;
+  margin-bottom: 30px;
+}
+
+.module {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+  color: #28a745;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.module ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.module ul li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 15px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  color: #28a745;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 1em;
+}
